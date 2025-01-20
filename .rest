@@ -1,0 +1,35 @@
+### get user
+GET http://localhost:4000
+Content-Type: application/json
+
+
+
+### Register User
+POST http://localhost:4000/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "test1@gmail.com",
+  "name": "ali",
+  "password": "12345"
+}
+
+
+### Login User
+
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "test1@gmail.com",
+  "password": "12345"
+}
+
+### Token Authorization
+
+GET http://localhost:4000/api/auth/protected
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer
