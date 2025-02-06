@@ -22,8 +22,7 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 
-// Use Routes
-app.use("/auth", authRoutes); // Add auth routes
+
 
 // MongoDB connection
 mongoose
