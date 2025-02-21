@@ -1,11 +1,11 @@
 ### root path 
-GET http://localhost:4000
+GET https://dept-store-auth-server.vercel.app
 Content-Type: application/json
 
 
 
 ### Register User
-POST http://localhost:4000/api/auth/register
+POST https://dept-store-auth-server.vercel.app/api/auth/register
 Content-Type: application/json
 Accept: application/json
 
@@ -18,7 +18,7 @@ Accept: application/json
 
 ### Login User
 
-POST http://localhost:4000/api/auth/login
+POST https://dept-store-auth-server.vercel.app/api/auth/login
 Content-Type: application/json
 Accept: application/json
 
@@ -29,7 +29,7 @@ Accept: application/json
 
 ### Token Authorization
 
-GET http://localhost:4000/api/auth/protected
+GET https://dept-store-auth-server.vercel.app/api/auth/protected
 Content-Type: application/json
 Accept: application/json
 Authorization: Bearer
