@@ -38,7 +38,7 @@ app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
   res.send(
-    "AhsanAli-BSCS-F20-280,AbdullahRabi-BSCS-F20-316,WaleedJaved-BSCS-F20-337"
+   "Ahmad Yaseen-BSCS-F20-378,Muhammad Ahmad-BSCS-F20-283"
   );
 });
 // Endpoint for Add to Cart save data to MongoDB
